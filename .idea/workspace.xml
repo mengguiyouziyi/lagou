@@ -25,16 +25,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_all_search.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_all_search.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-523">
-              <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+            <state relative-caret-position="395">
+              <caret line="64" column="86" lean-forward="false" selection-start-line="64" selection-start-column="86" selection-end-line="64" selection-end-column="86" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-                <marker date="1499412759000" expanded="true" signature="2033:2092" ph="select id, q... tyc_jichu_bj" />
-                <marker date="1499412759000" expanded="true" signature="2033:2104" ph="select id, q... tyc_jichu_bj" />
-                <marker date="1499412759000" expanded="true" signature="2117:2178" ph="select id, q... tyc_jichu_bj" />
+                <marker date="1499414149000" expanded="true" signature="2033:2091" ph="select id, q... tyc_jichu_bj" />
+                <marker date="1499414149000" expanded="true" signature="2033:2104" ph="select id, q... tyc_jichu_bj" />
+                <marker date="1499414149000" expanded="true" signature="2117:2178" ph="select id, q... tyc_jichu_bj" />
               </folding>
             </state>
           </provider>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_comp.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_comp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1745">
-              <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+            <state relative-caret-position="-381">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
                 <marker date="1499412260000" expanded="true" signature="1888:1916" ph="select lg_co... lg_id" />
@@ -82,8 +82,8 @@
       <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="302">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#197#210#0" expanded="true" />
               </folding>
@@ -898,7 +898,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499412263276</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="all-2">
+      <created>1499413815904</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1499413815904</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1386,16 +1393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="e#197#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-518">
@@ -1419,27 +1416,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <marker date="1499412759000" expanded="true" signature="2033:2092" ph="select id, q... tyc_jichu_bj" />
-            <marker date="1499412759000" expanded="true" signature="2033:2104" ph="select id, q... tyc_jichu_bj" />
-            <marker date="1499412759000" expanded="true" signature="2117:2178" ph="select id, q... tyc_jichu_bj" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1745">
-          <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+        <state relative-caret-position="-381">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
             <marker date="1499412260000" expanded="true" signature="1888:1916" ph="select lg_co... lg_id" />
             <marker date="1499412260000" expanded="true" signature="1888:1948" ph="select lg_co... lg_id" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#197#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="64" column="86" lean-forward="false" selection-start-line="64" selection-start-column="86" selection-end-line="64" selection-end-column="86" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <marker date="1499414149000" expanded="true" signature="2033:2091" ph="select id, q... tyc_jichu_bj" />
+            <marker date="1499414149000" expanded="true" signature="2033:2104" ph="select id, q... tyc_jichu_bj" />
+            <marker date="1499414149000" expanded="true" signature="2117:2178" ph="select id, q... tyc_jichu_bj" />
           </folding>
         </state>
       </provider>
