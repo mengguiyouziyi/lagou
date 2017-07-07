@@ -7,9 +7,9 @@
 import pymysql
 from scrapy.exceptions import DropItem
 from .utils.bloomfilter import PyBloomFilter, conn
-import io
-import sys
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
+# import io
+# import sys
+# sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 
 
 class LagouItem(object):
