@@ -2,7 +2,7 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-from lg_scrp_170704.lagou.lagou.items import LagouItem
+from lagou.lagou.items import LagouItem
 import re
 
 

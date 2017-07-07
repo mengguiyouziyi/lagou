@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from scrapy.spiders import Spider
-from lg_scrp_170704.lagou.lagou.items import LagouItem
+from lagou.lagou.items import LagouItem
 import json
 import pymysql.cursors
 import pymysql
