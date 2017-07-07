@@ -49,9 +49,12 @@ class MysqlPipeline(object):
 		# 	sql = """update lg_id set comp_url=%s WHERE lg_comp_id=%s"""
 		# 	args = (item["comp_url"], item['lg_comp_id'])
 		self.cursor.execute(sql, args=args)
-		print('success')
-
 		self.conn.commit()
+		if 'id' in item.keys():
+			print(str(item['id']) + ' success')
+		elif 'lg_comp_id' in item.keys():
+			print(str(item['lg_comp_id']) + ' success')
+
 
 
 class DuplicatesPipeline(object):
