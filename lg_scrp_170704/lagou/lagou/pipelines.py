@@ -51,9 +51,9 @@ class MysqlPipeline(object):
 		self.cursor.execute(sql, args=args)
 		self.conn.commit()
 		if 'id' in item.keys():
-			print(str(item['id']) + ' success')
+			print(str(item['id']) + ' id success')
 		elif 'lg_comp_id' in item.keys():
-			print(str(item['lg_comp_id']) + ' success')
+			print(str(item['lg_comp_id']) + ' lg_comp_id success')
 
 
 
