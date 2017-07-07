@@ -103,7 +103,7 @@ class GetAllSpider(Spider):
 		# 	yield scrapy.FormRequest(url, formdata=form_data, meta={'item': item}, headers=headers, callback=self.parse_item)
 		#
 		# def parse_item(self, response):
-		print('meta~~~~' + str(response.meta['form_data']))
+		# print('meta~~~~' + str(response.meta['form_data']))
 		item = response.meta.get('item', '')
 		if not item:
 			return
@@ -141,7 +141,7 @@ class GetAllSpider(Spider):
 			                               'job_titles': job_titles},
 			                         headers=response.request.headers, callback=self.parse,
 			                         dont_filter=True)
-			print('next---' + str(response.meta['form_data']))
+			# print('next---' + str(response.meta['form_data']))
 		else:
 			job = dict(zip(job_ids, job_titles))
 			item['job'] = json.dumps(job, ensure_ascii=False)

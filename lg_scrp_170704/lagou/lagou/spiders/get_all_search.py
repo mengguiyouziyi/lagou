@@ -82,7 +82,7 @@ class GetAllSpider(Spider):
 			                         dont_filter=True)
 
 	def parse(self, response):
-		print('meta' + str(response.meta['form_data']))
+		# print('meta' + str(response.meta['form_data']))
 		api = json.loads(response.text)
 		if not api['success']:
 			return
@@ -106,4 +106,4 @@ class GetAllSpider(Spider):
 		form_data.update({'pn': str(nextPageNo)})
 		yield scrapy.FormRequest(self.start_url, meta={'item': item, 'form_data': form_data}, formdata=form_data,
 		                         callback=self.parse, dont_filter=True)
-		print('next' + str(item) + str(form_data))
+		# print('next' + str(item) + str(form_data))

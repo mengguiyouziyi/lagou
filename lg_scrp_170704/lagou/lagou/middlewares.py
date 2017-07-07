@@ -38,7 +38,7 @@ class RedirctMiddleware(object):
 			print('wrong status: %s, retrying~~' % response.status, request.url)
 			return request.replace(url=request.url)
 		elif "您操作太频繁,请稍后再访问" in response.text:
-			print('您操作太频繁,请稍后再访问, retrying~~')
+			print('too many times, retrying~~')
 			return request.replace(url=request.url)
 		else:
 			return response
