@@ -45,18 +45,24 @@ class GetAllSpider(Spider):
 		# 'AUTOTHROTTLE_DEBUG': True,
 	}
 	"""
-	1、limit 250000
-	2、limit 250000,250000
-	3、limit 500000,250000
-	4、limit 750000,250000
-	4、limit 1000000,250000
-	5、limit 1250000,-1
+	1-1、limit 130000
+	1-2、limit 130000,120000
+	2-1、limit 250000,130000
+	2-2、limit 380000,120000
+	3-1、limit 500000,130000
+	3-2、limit 630000,120000
+	4-1、limit 750000,130000
+	4-2、limit 880000,120000
+	5-1、limit 1000000,130000
+	5-2、limit 1130000,120000
+	6-1、limit 1250000,130000
+	6-2、limit 1380000,250000
 	"""
 	def __init__(self):
 		self.connection = pymysql.connect(host='etl1.innotree.org', user='spider', password='spider', db='spider',
 		                                  charset='utf8', cursorclass=pymysql.cursors.DictCursor)
 		self.cursor = self.connection.cursor()
-		sql = "select id, quan_cheng from tyc_jichu_bj ORDER BY id limit 1250000,250000"
+		sql = "select id, quan_cheng from tyc_jichu_bj ORDER BY id limit 130000,120000"
 		# sql = "select id, quan_cheng from tyc_jichu_bj ORDER BY id limit 250"
 		self.cursor.execute(sql)
 		results = self.cursor.fetchall()

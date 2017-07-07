@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e761c2ef-8e71-4221-9f40-693ee92d7f48" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,23 +28,35 @@
       <file leaf-file-name="get_all_search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="58" column="87" lean-forward="false" selection-start-line="58" selection-start-column="87" selection-end-line="58" selection-end-column="87" />
+            <state relative-caret-position="-523">
+              <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-                <marker date="1499412260000" expanded="true" signature="1865:1931" ph="select id, q... tyc_jichu_bj" />
-                <marker date="1499412260000" expanded="true" signature="1865:1937" ph="select id, q... tyc_jichu_bj" />
-                <marker date="1499412260000" expanded="true" signature="1950:2011" ph="select id, q... tyc_jichu_bj" />
+                <marker date="1499412759000" expanded="true" signature="2033:2092" ph="select id, q... tyc_jichu_bj" />
+                <marker date="1499412759000" expanded="true" signature="2033:2104" ph="select id, q... tyc_jichu_bj" />
+                <marker date="1499412759000" expanded="true" signature="2117:2178" ph="select id, q... tyc_jichu_bj" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_comp.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bloomfilter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/utils/bloomfilter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="46" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_comp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            <state relative-caret-position="1745">
+              <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
                 <marker date="1499412260000" expanded="true" signature="1888:1916" ph="select lg_co... lg_id" />
@@ -55,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_job_list_new.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_job_list_new.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1038">
@@ -71,8 +82,8 @@
       <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="300">
+              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="e#197#210#0" expanded="true" />
               </folding>
@@ -148,10 +159,10 @@
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/pipelines.py" />
-        <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py" />
-        <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py" />
+        <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
+        <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py" />
       </list>
     </option>
   </component>
@@ -256,6 +267,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lagou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lagou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lagou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lg_scrp_170704" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lagou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lagou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -854,7 +891,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499411644462</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="all-2">
+      <created>1499412263276</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1499412263276</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -900,7 +944,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py</url>
-          <line>80</line>
+          <line>86</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1255,16 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/utils/bloomfilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1333,21 +1367,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="e#197#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.pyenv/versions/env_comm_Ana3-4.3.0/lib/python3.6/site-packages/scrapy/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1038">
+          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <marker date="1499412260000" expanded="true" signature="1853:1913" ph="select lg_co... lg_id" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#197#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1364,38 +1409,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/utils/bloomfilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="46" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="58" column="87" lean-forward="false" selection-start-line="58" selection-start-column="87" selection-end-line="58" selection-end-column="87" />
+        <state relative-caret-position="-523">
+          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
-            <marker date="1499412260000" expanded="true" signature="1865:1931" ph="select id, q... tyc_jichu_bj" />
-            <marker date="1499412260000" expanded="true" signature="1865:1937" ph="select id, q... tyc_jichu_bj" />
-            <marker date="1499412260000" expanded="true" signature="1950:2011" ph="select id, q... tyc_jichu_bj" />
+            <marker date="1499412759000" expanded="true" signature="2033:2092" ph="select id, q... tyc_jichu_bj" />
+            <marker date="1499412759000" expanded="true" signature="2033:2104" ph="select id, q... tyc_jichu_bj" />
+            <marker date="1499412759000" expanded="true" signature="2117:2178" ph="select id, q... tyc_jichu_bj" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        <state relative-caret-position="1745">
+          <caret line="96" column="32" lean-forward="true" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
             <marker date="1499412260000" expanded="true" signature="1888:1916" ph="select lg_co... lg_id" />
             <marker date="1499412260000" expanded="true" signature="1888:1948" ph="select lg_co... lg_id" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1038">
-          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <marker date="1499412260000" expanded="true" signature="1853:1913" ph="select lg_co... lg_id" />
           </folding>
         </state>
       </provider>
