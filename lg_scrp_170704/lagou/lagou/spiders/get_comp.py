@@ -51,7 +51,7 @@ class GetAllSpider(Spider):
 	5-1、limit 160000,20000
 	5-2、limit 180000,20000
 	6-1、limit 200000,20000
-	6-2、limit 220000,-1
+	6-2、limit 220000,20000
 	"""
 	def __init__(self):
 		self.connection = pymysql.connect(host='etl1.innotree.org', user='spider', password='spider', db='spider',
