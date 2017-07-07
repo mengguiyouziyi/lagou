@@ -49,7 +49,7 @@ class GetAllSpider(Spider):
 	5、limit 1250000,-1
 	"""
 	def __init__(self):
-		self.connection = pymysql.connect(host='etl2.innotree.org', user='spider', password='spider', db='spider',
+		self.connection = pymysql.connect(host='etl1.innotree.org', user='spider', password='spider', db='spider',
 		                                  charset='utf8', cursorclass=pymysql.cursors.DictCursor)
 		self.cursor = self.connection.cursor()
 		# sql = "select id, quan_cheng from tyc_jichu_bj ORDER BY id limit 250000"

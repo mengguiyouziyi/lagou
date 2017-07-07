@@ -17,7 +17,7 @@ class LagouItem(object):
 class MysqlPipeline(object):
 	# 采用同步的机制写入mysql
 	def __init__(self):
-		self.conn = pymysql.connect(host='etl2.innotree.org', user='spider', password='spider', db='spider',
+		self.conn = pymysql.connect(host='etl1.innotree.org', user='spider', password='spider', db='spider',
 		                                  charset='utf8', cursorclass=pymysql.cursors.DictCursor)
 		self.cursor = self.conn.cursor()
 

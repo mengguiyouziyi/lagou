@@ -49,7 +49,7 @@ class GetAllSpider(Spider):
 	# }
 
 	def __init__(self):
-		self.connection = pymysql.connect(host='localhost', user='root', password='3646287', db='spiders',
+		self.connection = pymysql.connect(host='etl1.innotree.org', user='root', password='3646287', db='spiders',
 		                                  charset='utf8', cursorclass=pymysql.cursors.DictCursor)
 		self.cursor = self.connection.cursor()
 
