@@ -9,6 +9,9 @@
 import base64
 from random import choice
 # from scrapy.exceptions import NotConfigured
+import io
+import sys
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 
 # 代理服务器
 proxyServer = "http://proxy.abuyun.com:9020"

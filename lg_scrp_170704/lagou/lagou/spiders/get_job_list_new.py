@@ -5,6 +5,9 @@ from lagou.items import LagouItem
 import json
 import pymysql.cursors
 import pymysql
+import io
+import sys
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 
 
 class GetAllSpider(Spider):
