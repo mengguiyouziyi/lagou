@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e761c2ef-8e71-4221-9f40-693ee92d7f48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/cookies.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/lg_job.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/others/360.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/others/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/others/cookies.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/others/t.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/others/u.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/text.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lagou_requests/text.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/cmd1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/cmd2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/cmd3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/items.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/pipelines.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_detail.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/utils/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/utils/bloomfilter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/scrapy.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/test.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lagou_requests/Chaibiao.py" afterPath="$PROJECT_DIR$/lagou_requests/others/Chaibiao.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lagou_requests/xiaomi.py" afterPath="$PROJECT_DIR$/lagou_requests/others/xiaomi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lagou.iml" afterPath="$PROJECT_DIR$/.idea/lagou.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lagou_requests/lagou_requests.py" afterPath="$PROJECT_DIR$/lagou_requests/lagou_requests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrapy/lagou_scrapy/pipelines.py" afterPath="$PROJECT_DIR$/lg_scrapy/lagou_scrapy/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrapy/lagou_scrapy/spiders/lagou.py" afterPath="$PROJECT_DIR$/lg_scrapy/lagou_scrapy/spiders/lagou.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,14 +24,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_all_search.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_all_search.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="52" selection-end-column="97" />
+            <state relative-caret-position="328">
+              <caret line="55" column="76" lean-forward="false" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-                <marker date="1499399444000" expanded="true" signature="1792:1856" ph="select id, q... tyc_jichu_bj" />
+                <marker date="1499403288000" expanded="true" signature="1794:1858" ph="select id, q... tyc_jichu_bj" />
+                <marker date="1499403288000" expanded="true" signature="1869:1930" ph="select id, q... tyc_jichu_bj" />
               </folding>
             </state>
           </provider>
@@ -100,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bloomfilter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bloomfilter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/utils/bloomfilter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="294">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -213,10 +178,10 @@
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/test.json" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/pipelines.py" />
-        <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/utils/bloomfilter.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py" />
+        <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
       </list>
     </option>
   </component>
@@ -372,6 +337,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -740,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498558476397</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="all-2">
+      <created>1499402830126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1499402830127</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -754,7 +727,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49841774" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17528272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17528272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31170887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -778,14 +751,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all" />
     <MESSAGE value="all-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="all-1" />
+    <MESSAGE value="all-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="all-2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py</url>
-          <line>75</line>
+          <line>76</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -921,6 +895,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,17 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="52" selection-end-column="97" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-            <marker date="1499399444000" expanded="true" signature="1792:1856" ph="select id, q... tyc_jichu_bj" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1273,10 +1237,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/utils/bloomfilter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="294">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="55" column="76" lean-forward="false" selection-start-line="55" selection-start-column="76" selection-end-line="55" selection-end-column="76" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+            <marker date="1499403288000" expanded="true" signature="1794:1858" ph="select id, q... tyc_jichu_bj" />
+            <marker date="1499403288000" expanded="true" signature="1869:1930" ph="select id, q... tyc_jichu_bj" />
           </folding>
         </state>
       </provider>

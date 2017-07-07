@@ -52,7 +52,8 @@ class GetAllSpider(Spider):
 		self.connection = pymysql.connect(host='etl2.innotree.org', user='spider', password='spider', db='spider',
 		                                  charset='utf8', cursorclass=pymysql.cursors.DictCursor)
 		self.cursor = self.connection.cursor()
-		sql = "select id, quan_cheng from tyc_jichu_bj ORDER BY id limit 250000"
+		# sql = "select id, quan_cheng from tyc_jichu_bj ORDER BY id limit 250000"
+		sql = "select id, quan_cheng from tyc_jichu_bj ORDER BY id limit 250"
 		self.cursor.execute(sql)
 		results = self.cursor.fetchall()
 		self.form_datas = []
