@@ -41,6 +41,7 @@ class GetIntro(object):
 			'X-Anit-Forge-Code': "0",
 			'X-Anit-Forge-Token': "None",
 			'X-Requested-With': "XMLHttpRequest",
+			'Accept-Encoding': "gzip, deflate, br",
 			# 'Cookie': random.choice(self.cookies)
 		}
 		# proxyMeta = "http://H4XGPM790E93518D:2835A47D56143D62@proxy.abuyun.com:9020"

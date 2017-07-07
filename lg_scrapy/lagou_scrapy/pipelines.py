@@ -17,10 +17,10 @@ class MysqlPipeline(object):
 	def __init__(self):
 		# self.conn = pymysql.connect('192.168.0.106', 'root', 'root', 'article_spider', charset="utf8", use_unicode=True)
 		self.conn = pymysql.connect(
-			host='101.200.166.12',
-			user='spider',
-			password='spider',
-			db='spider',
+			host='localhost',
+			user='root',
+			password='3646287',
+			db='spiders',
 			charset='utf8mb4',
 			cursorclass=pymysql.cursors.DictCursor,
 			use_unicode=True

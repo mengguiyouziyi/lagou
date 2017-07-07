@@ -12,10 +12,10 @@ class LagouSpider(Spider):
 	def __init__(self):
 		self.conn = pymysql.connect(
 			# host='10.44.60.141',
-			host='101.200.166.12',
-			user='spider',
-			password='spider',
-			db='spider',
+			host='localhost',
+			user='root',
+			password='3646287',
+			db='spiders',
 			charset='utf8mb4',
 			cursorclass=pymysql.cursors.DictCursor,
 			use_unicode=True
