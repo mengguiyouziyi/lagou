@@ -19,8 +19,12 @@ proxyServer = "http://proxy.abuyun.com:9020"
 # 代理隧道验证信息
 # proxyUser = "H4XGPM790E93518D"
 # proxyPass = "2835A47D56143D62"
+"""
 proxyUser = "HJA1354AT829M77D"
 proxyPass = "F222C0D807890356"
+"""
+proxyUser = "H8J738EHR4H5GE5D"
+proxyPass = "3018672C5A167A3D"
 
 # for Python3
 proxyAuth = "Basic " + base64.urlsafe_b64encode(bytes((proxyUser + ":" + proxyPass), "ascii")).decode("utf8")
