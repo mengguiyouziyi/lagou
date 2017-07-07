@@ -15,7 +15,6 @@ class GetAllSpider(Spider):
 	allowed_domains = ['lagou.com']
 	start_url = 'https://www.lagou.com/gongsi/searchPosition.json'
 	custom_settings = {
-		'LOG_STDOUT': False,
 		'DOWNLOADER_MIDDLEWARES': {
 			'lagou.middlewares.ProxyMiddleware': 1,
 			'lagou.middlewares.RedirctMiddleware': 110,

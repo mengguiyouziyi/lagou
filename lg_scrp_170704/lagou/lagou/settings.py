@@ -30,7 +30,10 @@ NEWSPIDER_MODULE = 'lagou.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-LOG_STDOUT = True
+# LOG_STDOUT = True
+
+# DEBUG INFO WARNING ERROR CRITICAL
+LOG_LEVEL = 'INFO',
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
 

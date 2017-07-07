@@ -15,9 +15,7 @@ class GetAllSpider(Spider):
 	allowed_domains = ['lagou.com']
 	start_url = 'https://www.lagou.com/jobs/companyAjax.json'
 	custom_settings = {
-		'LOG_STDOUT': False,
-		# DEBUG INFO WARNING ERROR CRITICAL
-		'LOG_LEVEL': 'INFO',
+
 		'DOWNLOADER_MIDDLEWARES': {
 			'lagou.middlewares.ProxyMiddleware': 1,
 			'lagou.middlewares.RedirctMiddleware': 110,
