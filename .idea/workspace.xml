@@ -4,9 +4,6 @@
     <list default="true" id="e761c2ef-8e71-4221-9f40-693ee92d7f48" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py" afterPath="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +24,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_all_search.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_all_search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-345">
@@ -71,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="272">
+              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
               <folding>
                 <element signature="e#438#447#0" expanded="true" />
               </folding>
@@ -150,9 +147,9 @@
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/middlewares.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/pipelines.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_all_search.py" />
-        <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_comp.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/spiders/get_job_list_new.py" />
+        <option value="$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py" />
       </list>
     </option>
   </component>
@@ -764,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499407378574</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="all-2">
+      <created>1499407622098</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1499407622098</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1241,16 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="e#438#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1324">
@@ -1306,6 +1300,16 @@
             <element signature="e#24#37#0" expanded="true" />
             <marker date="1499407617000" expanded="true" signature="1867:1931" ph="select id, q... tyc_jichu_bj" />
             <marker date="1499407617000" expanded="true" signature="1942:2003" ph="select id, q... tyc_jichu_bj" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170704/lagou/lagou/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <element signature="e#438#447#0" expanded="true" />
           </folding>
         </state>
       </provider>
