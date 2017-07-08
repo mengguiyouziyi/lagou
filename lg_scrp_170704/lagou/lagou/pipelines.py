@@ -28,11 +28,11 @@ class MysqlPipeline(object):
 		if spider.name == 'get_all_search':
 			sql = """replace into lg_id(id, quan_cheng, lg_comp_id, lg_comp_name) VALUES (%s, %s, %s, %s)"""
 			args = (item["id"], item["quan_cheng"], item["lg_comp_id"], item["lg_comp_name"])
-		elif spider.name == 'get_comp':
+		elif spider.name == 'get_comp_new':
 			# sql = "insert into lg_id(lg_comp_intro, team_size, comp_tags) VALUES(%s, %s, %s) ON DUPLICATE KEY UPDATE lg_comp_id=VALUES(%s)"
 			sql = """update lg_id set lg_comp_intro=%s, team_size=%s, comp_url=%s, comp_tags=%s WHERE lg_comp_id=%s"""
 			args = (item["lg_comp_intro"], item["team_size"], item["comp_url"], item['comp_tags'], item['lg_comp_id'])
-		elif spider.name == 'get_job_list_new':
+		elif spider.name == 'get_job_list_new2':
 			# sel_sql = """select job from lg_id WHERE lg_comp_id=%s"""
 			# self.cursor.execute(sel_sql, (item['lg_comp_id'],))
 			# result = self.cursor.fetchone()

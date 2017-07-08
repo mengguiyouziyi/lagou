@@ -21,8 +21,8 @@ proxyServer = "http://proxy.abuyun.com:9020"
 # proxyPass = "2835A47D56143D62"
 
 
-# proxyUser = "HJA1354AT829M77D"
-# proxyPass = "F222C0D807890356"
+proxyUser = "HJA1354AT829M77D"
+proxyPass = "F222C0D807890356"
 
 # proxyUser = "H8J738EHR4H5GE5D"
 # proxyPass = "3018672C5A167A3D"
@@ -36,8 +36,8 @@ proxyServer = "http://proxy.abuyun.com:9020"
 # proxyUser = "HQ78N3Y82239165D"
 # proxyPass = "AA99073C3271DBFA"
 #
-proxyUser = "H8963415MP59046D"
-proxyPass = "6C586451622880CB"
+# proxyUser = "H8963415MP59046D"
+# proxyPass = "6C586451622880CB"
 
 
 # for Python3
@@ -53,10 +53,10 @@ class ProxyMiddleware(object):
 class RedirctMiddleware(object):
 	def process_response(self, request, response, spider):
 		if response.status == 302 or response.status == 429:
-			print('wrong status: %s, retrying~~' % response.status, request.url)
+			# print('wrong status: %s, retrying~~' % response.status, request.url)
 			return request.replace(url=request.url)
 		elif "您操作太频繁,请稍后再访问" in response.text:
-			print('too many retrys, retrying~~', request.meta['form_data'])
+			# print('too many retrys, retrying~~', request.meta['form_data'])
 			return request.replace(url=request.url)
 		else:
 			return response

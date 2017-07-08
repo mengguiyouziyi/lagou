@@ -33,7 +33,7 @@ ROBOTSTXT_OBEY = False
 LOG_STDOUT = True
 
 # DEBUG INFO WARNING ERROR CRITICAL
-LOG_LEVEL = 'DEBUG'
+LOG_LEVEL = 'INFO'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
 
@@ -148,7 +148,7 @@ ITEM_PIPELINES = {
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 RETRY_ENABLED = True
-RETRY_TIMES = 5
+RETRY_TIMES = 1
 RETRY_HTTP_CODES = [301, 302, 429, 500, 502, 503, 504, 408]
 # RETRY_HTTP_CODES = [200]
 
