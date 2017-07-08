@@ -21,6 +21,7 @@ red = QueueRedis()
 def send_id():
 	for id in range(230001):
 		red.send_to_queue('ids', id)
+		print(id)
 
 
 if __name__ == '__main__':
