@@ -11,10 +11,10 @@ sys.path.append(father_path)
 
 UNIQ_REDIS_HOST = 'a027.hb2.innotree.org'
 UNIQ_REDIS_PORT = 6379
-# QUEUE_REDIS_HOST = 'a027.hb2.innotree.org'
-# QUEUE_REDIS_PORT = 6379
-QUEUE_REDIS_HOST = 'localhost'
+QUEUE_REDIS_HOST = 'a027.hb2.innotree.org'
 QUEUE_REDIS_PORT = 6379
+# QUEUE_REDIS_HOST = 'localhost'
+# QUEUE_REDIS_PORT = 6379
 
 
 class Singleton(object):
