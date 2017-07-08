@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e761c2ef-8e71-4221-9f40-693ee92d7f48" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/send.py" afterPath="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/send.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/middlewares.py" afterPath="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/middlewares.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_comp_new.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_comp_new.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/spiders/get_comp_new.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="send.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="send.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/send.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="e#16#25#0" expanded="true" />
               </folding>
@@ -92,8 +92,8 @@
       <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+            <state relative-caret-position="293">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#197#210#0" expanded="true" />
               </folding>
@@ -172,7 +172,6 @@
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/items.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/cmd2.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/mysql2redis.py" />
-        <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/middlewares.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/settings.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/spiders/get_comp_new.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/red.py" />
@@ -180,6 +179,7 @@
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/get.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/my_redis.py" />
         <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/send.py" />
+        <option value="$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/middlewares.py" />
       </list>
     </option>
   </component>
@@ -962,7 +962,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499507294176</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="all-3">
+      <created>1499507969757</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1499507969757</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1492,16 +1499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/spiders/get_comp_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-47">
@@ -1510,16 +1507,6 @@
             <marker date="1499505426000" expanded="true" signature="692:842" ph="insert into lg_id... " />
             <marker date="1499505426000" expanded="true" signature="692:843" ph="insert into lg_id... " />
             <marker date="1499505426000" expanded="true" signature="692:1076" ph="insert into lg_all... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-          <folding>
-            <element signature="e#197#210#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1536,10 +1523,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/utils/send.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#197#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lg_scrp_170708/lagou/lagou/spiders/get_comp_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
